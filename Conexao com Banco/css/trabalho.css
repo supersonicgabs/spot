@@ -1,0 +1,167 @@
+body{
+    background-color: slategray;
+}
+#dados-pais{
+    border-style: dashed;
+    /*border: 1px;*/
+    
+    border-color: rebeccapurple; 
+    /*background-color: aliceblue;*/
+    color: lemonchiffon;
+    width: 100%;
+}
+
+
+.titulo h1{
+    color: lemonchiffon;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.titulo h2{
+    color: lemonchiffon;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu {
+    width: 20%;
+    height: auto;
+}
+.menu ul{
+    color: darkblue;
+    background-color: navajowhite;
+    text-decoration: none;
+}
+.menu a{
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu a:visited{
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu a:link{
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu a:active{
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: cornflowerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form-contato{
+    padding-left: 30%;
+    padding-top: 5%;
+    width: 30%;
+    float: center;
+    align-content: center;
+    /*background-color: cornsilk;*/
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.form-contato form{
+    color: green;
+    padding-left: 17%;
+    padding-top: 5%;
+    padding-bottom: 7.5%;
+    background-color: cornsilk;
+    border-radius:18px;
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    border:2px solid #000000;    
+}
+
+.form-contato form input{
+    padding: 0.5%;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #F5F6CE; 
+    border:1px solid #000000;
+    font-size: 1em;
+    color: green;
+}
+
+.form-contato form input[type=text]{
+    min-height: 3%;
+    max-height: 3%;
+    min-width: 6%;
+    max-width: 75%;
+    width: 75%; 
+    font-size: 1em;
+}
+
+.form-contato form input[type=submit]{
+    min-height: 3%;
+    max-height: 3%;
+    min-width: 6%;
+    max-width: 35%;
+    width: 35%; 
+}
+.form-contato form input[type=reset]{
+    min-height: 3%;
+    max-height: 3%;
+    min-width: 6%;
+    max-width: 35%;
+    width: 35%; 
+}
+
+.form-contato form textarea{
+    padding: 0.5%;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #F5F6CE;
+    border:1px solid #000000;
+    padding: 0.5%;
+    min-height: 10%;
+    max-height: 10%;
+    min-width: 6%;
+    max-width: 75%;   
+    font-size: 1.1em;
+}
+.form-contato form textarea:hover{
+    background: #F7F8E0;
+    border:1px solid blue;
+    color:teal;
+    font-weight: bold;
+}
+
+.form-contato form input[type=text]:hover{
+    background: #F7F8E0;
+    border:1px solid blue;
+    color:teal;
+    font-weight: bold;
+}
+
+.form-contato form input[type=submit]:hover{
+    background: #F7F8E0;
+    border:1px solid blue;
+    color: teal;
+    font-weight: bold;
+}
+
+.form-contato form input[type=reset]:hover{
+    background: #F7F8E0;
+    border:1px solid blue;
+    color: teal;
+    font-weight: bold;
+}

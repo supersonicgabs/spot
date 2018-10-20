@@ -1,0 +1,96 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" /> 
+    <title>SPOT</title>
+      <link href="Arquitetura/Imagens/Icones/icone.ico" rel="shortcut icon" type="image/x-icon" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />    
+        <meta name="robots" content="index,follow" />
+        <meta name="description" content="[[*introtext]]" />
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyA0UFE4cbyTQ7hUgsOatsdU4q65a0KdNEw&sensor=false"></script>     
+    <link href="Arquitetura/CSS/Reset.css" rel="stylesheet" />
+    <link href="Arquitetura/CSS/EstilosMaster.css" rel="stylesheet" />
+    <link href="Arquitetura/CSS/EstilosGeral.css" rel="stylesheet" />
+    <style>
+    body
+    {
+        background-color:#151515;
+    }
+    </style>
+<style>
+.portfolio
+{
+    z-index: 2;
+    position: relative;    
+    width: 100%;
+    float: left;
+}
+
+
+            input.error{
+                border:solid 1px red;
+            }
+            label { font-size: large; display: block; }
+            ul { list-style: none; }
+            li { text-align: right; padding-right:1em; padding-bottom: .5em; }    
+            .center { width:1000px; text-align: center;  margin: 0 auto; } 
+            .clear {float: none; clear:both;}
+</style>
+</head>
+<body onload="loadMap()">         
+
+        <div id="login-area" class="zoom-anim-dialog">
+    <section class="login-area">
+    <div class="container">
+        <div class="col col-12">
+        <img src="Arquitetura/Imagens/Layout/logo-principal.png" alt="Spot" title="Spot" class="logo" />
+    <div class="clear"></div>
+    <table>
+        <form action="autentica.php" method="post">
+        <tr>
+            <td>
+                <div class="campo-area">
+                    <input type="texto" class="campo" id="txtUsername" value="" name="nome" placeholder="Nome de Usuário..." required />
+                    <label>Nome de Usuário...</label>
+                </div>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <div class="campo-area">
+                    <input type="password" class="campo" id="txtSenha" textmode="password" name="senha" value="" placeholder="Senha..." required />
+                    <label>Senha...</label>
+                </div>
+            </td>            
+        </tr>                                     
+        <tr>
+        <td>
+            <input type="submit" class="btn-cadastro" id="btn-cadastro-vagas" value="Entrar" />
+        </br><p class="texto-cadastre">Não possui um cadastro?&nbsp;<a href="cadastro_usuario.php">Cadastre-se</a></p>
+        </td>
+        </tr>
+        </form>
+    </table>
+        </div>
+    </div>    
+    </section>
+    <div class="clear"></div>
+    </div>      
+        </section>
+        <footer>
+        </footer>               
+        <script src="Arquitetura/jQuery/Waypoints/jquery.waypoints.min.js"></script>
+        <link href="Arquitetura/jQuery/Waypoints/animate.css" rel="stylesheet" />
+        <script src="Arquitetura/jQuery/jquery-ui.min.js"></script>
+    <script src="Arquitetura/jQuery/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+    <link href="Arquitetura/jQuery/Magnific-Popup/magnific-popup.css" rel="stylesheet" />
+	<script src="Arquitetura/Javascript/Master.js"></script>
+	<script>
+       
+
+
+	</script>
+</body>
+</html>

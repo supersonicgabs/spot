@@ -1,0 +1,253 @@
+﻿* 
+{
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+form 
+{
+    width: 100%;
+}
+
+.center
+{
+    text-align:center;
+}
+
+.container 
+{
+    width: 100%;
+    max-width: 95%;
+    clear: both;
+    padding: 0px 10px;
+}
+
+.container-menor 
+{
+    width: 100%;
+    max-width: 1152px;
+    clear: both;
+    padding: 0px 10px;
+}
+
+.fluido 
+{
+    max-width: 100%;
+    padding:0px 0px;
+}
+
+.no-padding
+{
+    padding:0;
+}
+
+a:link, a:visited 
+{
+    -moz-transition: .5s ease;
+    -o-transition: .5s ease;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+a:hover, a:active
+{
+
+}
+
+.direita 
+{
+    float: right;
+    margin-right: 0 !important;
+}
+
+.esquerda 
+{
+    float: left;
+    margin-left: 0 !important;
+}
+
+.clear 
+{
+    clear: both;
+    margin: 0 !important;
+}
+
+.col 
+{
+    float: left;
+}
+
+.col:first-child 
+{
+    margin-left: 0;
+}
+
+.col-1 
+{
+    width: 8.333%;
+}
+
+.col-2 
+{
+    width: 16.66%;
+}
+
+.col-3 
+{
+    width: 25%;
+}
+
+.col-4 
+{
+    width: 33.33%;
+}
+
+.col-5 
+{
+    width: 41.66%;
+}
+
+.col-6 
+{
+    width: 50%;
+}
+
+.col-7 
+{
+    width: 58.33%;
+}
+
+.col-8 
+{
+    width: 66.66%;
+}
+
+.col-9 
+{
+    width: 75%;
+}
+
+.col-10 
+{
+    width: 83.33%;
+}
+
+.col-11 
+{
+    width: 91.66%;
+}
+
+.col-12 
+{
+    width: 100%;
+}
+
+.col-6:last-of-type 
+{
+    float: right;
+}
+
+.largura 
+{
+    width: 47%;
+}
+
+.no-mobile
+{
+    display:block;
+}
+
+.no-desktop
+{
+    display:none !important;
+}
+
+.center-mobile
+{
+    text-align:unset;
+}
+
+@media screen and (max-width: 1024px)
+{
+}
+
+@media screen and (max-width: 950px) 
+{
+.col-1, 
+.col-2, 
+.col-3, 
+.col-4, 
+.col-5, 
+.col-6, 
+.col-7, 
+.col-8, 
+.col-9, 
+.col-10, 
+.col-11, 
+.col-12 
+{
+    width: 100%;
+}
+
+.largura
+{
+    width: 100% !important;
+}
+}
+
+@media screen and (max-width: 640px)
+{
+.col-1, 
+.col-2, 
+.col-3, 
+.col-4, 
+.col-5, 
+.col-6, 
+.col-7, 
+.col-8, 
+.col-9, 
+.col-10, 
+.col-11, 
+.col-12 
+{
+    width: 100% !important;
+}
+}
+
+/*#region Media Queries */
+@media (max-width:768px)
+{
+.container 
+{
+    width:90%;
+    padding: 0px 0px;
+}
+
+.fluido 
+{
+    width:100%;
+    padding:0px 0px;
+}
+
+.no-mobile
+{
+    display:none !important;
+}
+
+.no-desktop
+{
+    display:block !important;
+}
+
+.center-mobile
+{
+    text-align:center;
+}
+}
+/*#endregion Media Queries */

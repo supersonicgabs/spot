@@ -1,0 +1,216 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" /> 
+    <title>SPOT</title>
+        <link href="Arquitetura/Imagens/Icones/icone.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />    
+        <meta name="robots" content="index,follow" />
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="Arquitetura/CSS/Reset.css" rel="stylesheet" />
+    <link href="Arquitetura/CSS/EstilosMaster.css" rel="stylesheet" />
+    <link href="Arquitetura/CSS/EstilosGeral.css" rel="stylesheet" />
+    <link href="Arquitetura/CSS/Menu-Mobile.css" rel="stylesheet" />
+<style>
+.portfolio
+{
+    z-index: 2;
+    position: relative;    
+    width: 100%;
+    float: left;
+}
+
+
+            input.error{
+                border:solid 1px red;
+            }            
+            ul { list-style: none; }
+            li { text-align: right; padding-right:1em; padding-bottom: .5em; }
+        
+
+            .center { width:1000px; text-align: center;  margin: 0 auto; } 
+            .clear {float: none; clear:both;}
+
+.conteudo
+{
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    margin-top: 100vh;    
+    background-image: url('Arquitetura/Imagens/Layout/wallpaper-wn.jpg');
+    background-attachment:fixed;    
+}            
+</style>
+</head>
+<body onload="loadMap()">
+        <header>
+            <div class="container">
+                <div class="col col-4">
+                        <div class="btn-menu no-desktop" onclick="AbrirMenu('menu-mobile-area')">
+                            <button class="c-hamburger c-hamburger--htx">
+                                <span>toggle menu</span>
+                            </button>
+                        </div>                
+                    <div class="logo"><a href="default.html"><img src="Arquitetura/Imagens/Layout/logo-principal.png" alt="Spot" title="Spot" /></a></div>
+                </div>
+                <div class="col col-8">
+                    <nav class="no-mobile">
+                        <ul>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a class="popup-with-zoom-anim" href="#cadastro-vagas">Cadastre sua Vaga</a></li>      
+                            <li><a href="#">contato</a></li>
+                            <li><a href="index.html">Sair</a>                               
+                            </li>                           
+                        </ul>                       
+                    </nav>
+                </div>                
+            </div>                      
+        </header>        
+        <div class="container fluido no-desktop" id="content">
+            <div class="menu-mobile-area" id="menu-mobile-area">
+                <div class="container">
+                            <asp:HyperLink runat="server" NavigateUrl="~/" ToolTip="Home">
+                                    <p class="item-menu"><img src="Arquitetura/Imagens/Icones/home.svg" />Home</p>
+                            </asp:HyperLink>
+                            <a href="Sobre.html" title="Sobre">
+                                <p class="item-menu">
+                                    <img src="Arquitetura/Imagens/Icones/sobre.svg" />Sobre
+                                </p>
+                            </a>
+                            <a class="popup-with-zoom-anim" href="#cadastro-vagas" title="Cadastro de Vagas">
+                                <p class="item-menu">
+                                    <img src="Arquitetura/Imagens/Icones/cadastrar-vaga.svg" />Cadastrar Vaga
+                                </p>
+                            </a>                            
+                            <a href="Contato.html" title="Contato">
+                                <p class="item-menu">
+                                    <img src="Arquitetura/Imagens/Icones/contato.svg" />Contato
+                                </p>
+                            </a>
+                            <a href="index.php" title="Sair">
+                                <p class="item-menu">
+                                    <img src="Arquitetura/Imagens/Icones/sair.svg" />Sair
+                                </p>
+                            </a>
+                </div>
+            </div>
+        </div>  
+        <div class="banner-principal">
+            <div class="texto-area">
+                <p class="titulo">
+                    Aluguel de vagas rápido e prático!                    
+                </p>
+                <p class="texto">
+                Cansou de procurar vagas pra estacionar o seu carro quando vai sair pra algum lugar?<br />
+                    Com o nosso serviço, você aluga uma vaga adequada para o seu carro de uma pessoa que não usa.
+                </p>
+            </div>
+        </div>          
+        <section class="conteudo">        
+    <section class="quem-somos">
+        <div class="container-menor">
+            <div class="col col-12">
+                <ul>
+                    <li class="cards-quem-somos animated">
+                        <div class="titulo-area">
+                            <p>O que fazemos?</p>
+                            <img src="Arquitetura/Imagens/Icones/o-que-fazemos.svg" />
+                        </div>
+                        <div class="clear"></div>
+                        <div class="texto-area">
+                            <p>
+                                Somos uma empresa preocupada com o seu lugar.
+                                <br />
+                                <br />
+                                Mostramos pra você as casas que estão com as vagas disponíveis perto de onde você pretende ir.                                
+                                <br />
+                                <br />
+                                <a href="#">Cadastre-se agora</a> e comece a usar o nosso serviço!
+                            </p>
+                        </div>
+                    </li>
+                    <li class="cards-quem-somos animated">
+                        <div class="titulo-area">
+                            <p>Como fazer?</p>
+                            <img src="Arquitetura/Imagens/Icones/como-fazer.svg" />                            
+                        </div>
+                        <div class="clear"></div>
+                        <div class="texto-area">
+                            <p>
+                                <b>I</b> - Faça seu cadastro
+                                <br />
+                                <br />
+                                <b>II</b> - Entre na opção "Vagas" do menu
+                                <br />
+                                <br />
+                                <b>III</b> - Digite um endereço
+                                <br />
+                                <br />
+                                <b>IV</b> - Clique no marcador do mapa
+                                <br />
+                                <br />
+                                <b>V</b> - Contacte o proprietário
+                                <br />
+                                <br />
+                                <b>VI</b> - Alugue a vaga!
+                            </p>
+                        </div>
+                    </li>
+                    <li class="cards-quem-somos animated">
+                        <div class="titulo-area">
+                            <p>Cadastre sua vaga</p>
+                            <img src="Arquitetura/Imagens/Icones/cadastre-vaga.svg" />
+                        </div>
+                        <div class="clear"></div>
+                        <div class="texto-area">
+                            <p>
+                                Você também pode disponibilizar sua vaga para aluguel!
+                                <br /><br />
+                                Nos informe as características de sua vaga, como por exemplo:
+                                <br />
+                                <br />
+                                 <b>&bull;</b> Dimensões
+                                 <br />
+                                 <b>&bull;</b> Horários disponíveis
+                                 <br />
+                                 <b>&bull;</b> Coberta/descoberta
+                                 <br />
+                                 <br />
+                                 <a href="#">Quero Cadastrar minha vaga</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="cards-quem-somos animated">
+                        <div class="titulo-area">
+                            <p>Dúvidas?</p>
+                            <img src="Arquitetura/Imagens/Icones/duvidas.svg" />
+                        </div>
+                        <div class="clear"></div>
+                        <div class="texto-area">
+                            <p>
+                                Se tiver alguma dúvida sobre como o serviço funcione, alguma reclamação, e/ou até uma sugestão, por favor, <a href="#">entre em contato conosco</a>
+                                <br />
+                                <br />
+                                <a href="#">Basta preencher um rápido formulário</a> com a suas informações básicas que responderemos o mais rápido possível! :)
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>    
+    </section>
+        
+        </section>
+        <footer>
+        </footer>               
+        <script src="Arquitetura/jQuery/Waypoints/jquery.waypoints.min.js"></script>
+        <link href="Arquitetura/jQuery/Waypoints/animate.css" rel="stylesheet" />
+        <script src="Arquitetura/jQuery/jquery-ui.min.js"></script>
+    <script src="Arquitetura/jQuery/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+    <link href="Arquitetura/jQuery/Magnific-Popup/magnific-popup.css" rel="stylesheet" />
+	<script src="Arquitetura/Javascript/Master.js"></script>	
+    <script src="Arquitetura/Javascript/Menu.js"></script>    
+</body>
+</html>
